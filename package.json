@@ -1,0 +1,23 @@
+{
+  "name": "vue-stripe-card-form",
+  "version": "1.0.0",
+  "description": "Vue component for taking card details and getting a token from stripe",
+  "main": "src/StripeCardForm.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deckymcdonough/vue-stripe-card-form.git"
+  },
+  "keywords": [
+    "vue",
+    "stripe"
+  ],
+  "author": "Declan McDonough <declan@purelethal.com> (http://purelethal.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deckymcdonough/vue-stripe-card-form/issues"
+  },
+  "homepage": "https://github.com/deckymcdonough/vue-stripe-card-form#readme"
+}
