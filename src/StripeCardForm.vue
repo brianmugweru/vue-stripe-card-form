@@ -66,8 +66,6 @@
 <script>
     export default {
     
-    name: 'stripe-checkout',
-
     props: {
         stripeKey: {
             type: String,
