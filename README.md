@@ -18,7 +18,7 @@ Include the stripe script in the head of your index.html file
 Use the component by passing though your stripe publishable key.
 The `tokenReceived` event will fire as soon as the form recieves a token from the Stripe API. 
 ``` html
-<stripe-payment @tokenReceived="gotToken" :stripe-key="[YOUR_STRIPE_PUBLISHABLE_KEY_GOES_HERE]">
+<stripe-payment @paymentEntered="gotToken" :stripe-key="[YOUR_STRIPE_PUBLISHABLE_KEY_GOES_HERE]">
 </stripe-payment>
 ```
 
